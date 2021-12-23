@@ -1,5 +1,6 @@
 # STM32exam
-STM32 programming 
+## STM32 programming 
+
 Si consideri un ascensore di cui si desidera gestire l’automazione. L’ascensore gesisce 9
 piani. La scelta del piano a cui andare viene effettuata ruotando il trimmer su AN11, il quale
 comporta la visualizzazione del piano selezionato [1, 9] sulla prima cifra del display, e confer mando con il tasto X. La selezione del piano provoca la partenza dell’ascensore verso il piano
