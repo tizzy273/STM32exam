@@ -6,6 +6,8 @@ comporta la visualizzazione del piano selezionato [1, 9] sulla prima cifra del d
 selezionato, qualora l’ascensore non sia in moto, oppure la prenotazione del piano selezionato
 qualora l’ascensore sia gia in corsa. `
 La corsa dell’ascensore deve essere gestita nel seguente modo:
+
+
 • Si chiudono le porte; tale evento dura 1.5 s, e indicato dal lampeggio del led rosso con `
 periodo di 200 ms e sul display viene mostrata la dicitura CLOS.
 • Si avvia la corsa dell’ascensore verso il piano; durante la corsa occorre visualizzare, sul
@@ -15,6 +17,8 @@ visualizzare sul display il numero P seguito da un trattino;
 • Durante la corsa occorre far lampeggiare il led giallo con periodo di 200 ms;
 • La velocita dell’ascensore deve essere regolabile (vedi oltre); `
 • All’arrivo al piano, si aprono le porte; tale evento dura 1.5 s, e indicato dal lampeggio `
+
+
 del led verde con periodo di 200 ms e sul display viene mostrata la dicitura OPEn; a fine
 apertura viene visualizzato di nuovo il numero del piano.
 Alla pressione del tasto T il sistema deve entrare in uno stato di configurazione dal quale deve
