@@ -2,7 +2,7 @@
 STM32 programming 
 Si consideri un ascensore di cui si desidera gestire l’automazione. L’ascensore gesisce 9
 piani. La scelta del piano a cui andare viene effettuata ruotando il trimmer su AN11, il quale
-comporta la visualizzazione del piano selezionato [1, 9] sulla prima cifra del display, e confermando con il tasto X. La selezione del piano provoca la partenza dell’ascensore verso il piano
+comporta la visualizzazione del piano selezionato [1, 9] sulla prima cifra del display, e confer mando con il tasto X. La selezione del piano provoca la partenza dell’ascensore verso il piano
 selezionato, qualora l’ascensore non sia in moto, oppure la prenotazione del piano selezionato
 qualora l’ascensore sia gia in corsa. `
 La corsa dell’ascensore deve essere gestita nel seguente modo:
@@ -23,4 +23,3 @@ compreso tra 1 sec/piano e 0.4 sec/piano, con granularita di ` 0.1 sec/piano (vi
 display il valore via via selezionato). Ripremendo il tasto T si rientra nella normale operativita.`
 Utilizzare la UART per stampare messaggi di log che segnalano gli eventi che accadono
 durante l’operativita.`
-
