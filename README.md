@@ -10,12 +10,16 @@ La corsa dell’ascensore deve essere gestita nel seguente modo:
 
 • Si chiudono le porte; tale evento dura 1.5 s, e indicato dal lampeggio del led rosso con `
 periodo di 200 ms e sul display viene mostrata la dicitura CLOS.
+
 • Si avvia la corsa dell’ascensore verso il piano; durante la corsa occorre visualizzare, sul
 display, il piano via via raggiunto, simulando anche la presenza dell’ascensore tra due
 piani; in particolare, quando l’ascensore si trova tra il piano P e il piano P + 1, occorre
 visualizzare sul display il numero P seguito da un trattino;
+
 • Durante la corsa occorre far lampeggiare il led giallo con periodo di 200 ms;
+
 • La velocita dell’ascensore deve essere regolabile (vedi oltre); `
+
 • All’arrivo al piano, si aprono le porte; tale evento dura 1.5 s, e indicato dal lampeggio `
 
 
